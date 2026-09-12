@@ -1,8 +1,4 @@
 # Computer Vision Essentials: From 2D Images to 3D, Video, and Restoration
-
-> An open-source tutorial for building intuition, not memorizing formulas.  
-> Best used as a companion to slides, papers, and hands-on projects.
-
 ---
 
 ## Learning Objectives

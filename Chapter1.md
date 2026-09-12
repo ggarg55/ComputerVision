@@ -1,40 +1,12 @@
 # Foundations of Vision and Language: A Complete Open-Source Tutorial on Computer Vision
 
-Welcome! This tutorial is designed for a hybrid audience: on-campus learners and online/working-professional learners. Both cohorts are equal. The goal is not memorization. The goal is understanding: how machines see, represent, recognize, reason, decide, and act.
+Welcome! This tutorial is designed for anyone interested in computer vision. The goal is not memorization. The goal is understanding: how machines see, represent, recognize, reason, decide, and act.
 
-Use this tutorial as a standalone course, a revision guide, or a reference for building computer vision intuition.
-
----
-
-## How to Use This Tutorial
-
-- Learn in hybrid mode: attend live if possible, or follow online.
-- Keep questions focused during lectures. Use teaching assistants or office hours for deep dives.
-- Start on time. Recordings are available, but live participation builds understanding.
-- On-campus and online cohorts are assessed separately. Do not compare cohorts.
-- Focus on thinking, logic, and intuition—not on memorizing formulas.
+Use this tutorial as a standalone guide, a revision tool, or a reference for building computer vision intuition.
 
 ---
 
-## Learning Objectives
-
-By the end of this tutorial, you will be able to:
-
-1. Define vision, computer vision, and perception.
-2. Explain recognition at multiple levels: objects, relationships, scenes, attributes, instances, functions, and dynamics.
-3. Describe the history and evolution of computer vision.
-4. Identify real-world challenges in computer vision, especially for autonomous systems.
-5. Explain video, time, and scaling efficiency.
-6. Understand learning with limited data and domain shift.
-7. Place computer vision within the broader AI landscape.
-8. Explain human vision stages and Marr’s computational framework.
-9. Understand features, SIFT, HOG, gradients, and when classical algorithms still matter.
-10. Review prerequisite concepts: cross entropy, softmax, and GANs.
-11. Understand course structure, assessment, and how to succeed.
-
----
-
-## Module 1: What Is Vision and Computer Vision?
+## What Is Vision and Computer Vision?
 
 **Vision** is how we understand the world from visual data: images, video, and 3D scenes.
 
@@ -55,7 +27,7 @@ Computer vision aims to give robots and autonomous agents the same kind of perce
 
 ---
 
-## Module 2: Recognition—Objects, Relationships, Scenes, and More
+## Recognition—Objects, Relationships, Scenes, and More
 
 Recognition is not just “find the object.” It involves multiple levels:
 
@@ -81,7 +53,7 @@ In a kitchen photo, you recognize not just “cup” and “table,” but “cup
 
 ---
 
-## Module 3: History and Evolution of Computer Vision
+## History and Evolution of Computer Vision
 
 Computer vision is not new. It has evolved over decades.
 
@@ -115,7 +87,7 @@ Early computer vision was like teaching a child to recognize a square. Today it 
 
 ---
 
-## Module 4: Challenges in Computer Vision
+## Challenges in Computer Vision
 
 Real-world computer vision is hard. Especially for autonomous cars.
 
@@ -155,7 +127,7 @@ Robustness matters. If any one challenge is missing, the model may fail. For aut
 
 ---
 
-## Module 5: Video, Time, and Scaling Efficiency
+## Video, Time, and Scaling Efficiency
 
 **Video** is a sequence of frames. Frames are images. Combining 2D images gives 3D—video.
 
@@ -185,7 +157,7 @@ A flipbook. If you flip pages slowly, you miss the motion. If you flip fast, you
 
 ---
 
-## Module 6: Learning with Limited Data
+## Learning with Limited Data
 
 Data is not always abundant.
 
@@ -212,7 +184,7 @@ There are millions of cat photos, but only a few hundred cases of a rare disease
 
 ---
 
-## Module 7: Computer Vision in the AI Landscape
+## Computer Vision in the AI Landscape
 
 Computer vision has been central to AI:
 
@@ -252,7 +224,7 @@ A robot in a room can use graph neural networks to understand hierarchy: room �
 
 ---
 
-## Module 8: Human Vision and Marr’s Framework
+## Human Vision and Marr’s Framework
 
 Why does human vision need multiple stages instead of directly recognizing a 3D object from a 2D image?
 
@@ -285,7 +257,7 @@ A cardboard cutout of a chair has height and width and some depth cues, but you 
 
 ---
 
-## Module 9: Features, SIFT, HOG, and Gradients
+## Features, SIFT, HOG, and Gradients
 
 **Features** are informative visual properties that help distinguish objects.
 
@@ -325,7 +297,7 @@ To recognize a face, you don’t remember every pixel. You remember eyes, nose, 
 
 ---
 
-## Module 10: Do We Still Need Classical Algorithms?
+## Do We Still Need Classical Algorithms?
 
 Yes. Classical algorithms like SIFT and HOG still matter.
 
@@ -355,7 +327,7 @@ A master key can open many doors, but a custom key is cheaper and faster for one
 
 ---
 
-## Module 11: Prerequisite Quick Checks
+## Prerequisite Quick Checks
 
 **Cross entropy loss:**
 
@@ -379,70 +351,11 @@ Cross entropy is a penalty for wrong confidence. If you say “99% cat” and it
 
 ---
 
-## Module 12: Course Structure and Assessment
-
-**Structure:**
-
-- Three lectures per week.
-- No practical, no tutorial.
-- Three hours of lectures per week.
-- Three credits.
-- Three instructors.
-- Three fractals.
-- 13 lectures each, total 39.
-- Sequence: Computer Vision, then theoretical NLP, then NLP techniques.
-
-**Assessment for on-campus cohort:**
-
-- Final exam: 50%.
-- Midterm in September.
-- Mini project.
-- Internal 30% split 10% per fractal.
-- Midterm covers computer vision part.
-- Final exam weighted more to parts 2 and 3.
-
-**Assessment for online/working-professional cohort:**
-
-- No midterm.
-- Only final exam.
-- Final exam offline, on campus.
-- Quizzes: 30%, 10% per part.
-- Assignments: 20%, equally divided.
-- Final exam paper same as on-campus except part one; rest overlaps.
-- Admin questions about weekend exams, international learners, etc., are handled by administration.
-
-**Teaching style:**
-
-- Not mugging steps.
-- Thinking-based, logical questions.
-- Understanding creation.
-- Not pure computer vision with formulas.
-- Develop logical thinking.
-
-**Simple example:**  
-Instead of memorizing “step 1, step 2, step 3,” you should explain why a self-driving car needs real-time detection, why occlusion is hard, and how HOG helps.
-
----
-
-## Module 13: How to Succeed
-
-- Participate actively. Your brain says “I care” when you participate.
-- Ask questions through teaching assistants first.
-- Escalate to the instructor only if needed.
-- Send admin questions to the admin team.
-- Stay muted online unless speaking.
-- Start on time.
-- Use recordings if you miss something.
-- Focus on understanding, not memorization.
-- Build logical thinking.
-
----
-
 ## Memory Cheat Sheet
 
 | Concept | Simple Memory Hook |
 |---|---|
-| Hybrid mode | Dine-in + delivery classroom |
+| Hybrid mode | Dine-in + delivery setup |
 | Computer vision | Giving eyes to machines |
 | Perception | Same market, different interpretations |
 | Recognition | Objects, activities, scene, instance, attributes |
@@ -479,6 +392,6 @@ Instead of memorizing “step 1, step 2, step 3,” you should explain why a sel
 
 ---
 
-## Final Mantra
+## Final Thoughts
 
 Computer vision is not just about recognizing images. It is about building a robust, efficient, real-time perception system that can see like a human, reason like an engineer, and act safely in an uncertain world.
